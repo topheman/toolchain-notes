@@ -1,0 +1,6 @@
+[book]
+authors = ["Christophe Rosset"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Toolchain Notes"
