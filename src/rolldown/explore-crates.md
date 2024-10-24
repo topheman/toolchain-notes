@@ -70,7 +70,7 @@ For the implementation, see [oxc-project/oxc-resolver](https://github.com/oxc-pr
 
 [`PluginDriver`](https://github.com/rolldown/rolldown/blob/main/crates/rolldown_plugin/src/plugin_driver/mod.rs)
 
-- instanciated with
+- instanciated by the [`BundlerBuilder`](https://github.com/rolldown/rolldown/blob/main/crates/rolldown/src/bundler_builder.rs)
   - plugins: `Vec<SharedPluginable>` - list of plugins
   - resolver: `&Arc<Resolver>` - see [`rolldown_resolver`](#rolldown_resolver)
   - file_emitter: `SharedFileEmitter` - see [`rolldown_common::file_emitter` (source)](https://github.com/rolldown/rolldown/blob/main/crates/rolldown_common/src/file_emitter.rs) / [`rolldown_common::file_emitter` (wiki)](#rolldown_commonfile_emitter)
@@ -98,5 +98,10 @@ For the implementation, see [oxc-project/oxc-resolver](https://github.com/oxc-pr
 <a href="https://github.com/rolldown/rolldown/tree/main/crates/rolldown_plugin_transform" title="Source Code of rolldown_plugin_transform">📄</a>
 
 ## rolldown_resolver
+
+1. `rolldown_resolver::Resolver::new` creates an instance of the resolver based on
+  - [`ResolveOptions`](https://github.com/rolldown/rolldown/blob/main/crates/rolldown_common/src/inner_bundler_options/types/resolve_options.rs) (handles all the default cases)
+  - [`Platform`](https://github.com/rolldown/rolldown/blob/main/crates/rolldown_common/src/inner_bundler_options/types/platform.rs) which may be `node`, `browser` or `neutral`
+2. Call site of `rolldown_resolver::Resolver::new` is in `BundlerBuilder`, while creating [`PluginDriver`](#rolldown_pluginplugindriver)
 
 <a href="https://github.com/rolldown/rolldown/tree/main/crates/rolldown_resolver" title="Source Code of rolldown_resolver">📄</a>
