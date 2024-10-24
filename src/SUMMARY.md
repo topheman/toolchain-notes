@@ -6,19 +6,23 @@
 
 # rolldown
 
-- [Explore crates](./rolldown/README.md)
-- [Build](./rolldown/build.md)
+- [rolldown / Explore crates](./rolldown/README.md)
+- [rolldown / Build](./rolldown/build.md)
 
 # oxc
 
-- [Explore crates](./oxc/README.md)
-- [Build](./oxc/build.md)
+- [oxc / Explore crates](./oxc/README.md)
+- [oxc / Build](./oxc/build.md)
+
+# oxc-resolver
+
+- [oxc-resolver / Explore crate](./oxc-resolver/README.md)
 
 # napi
 
-- [Introduction](./napi/README.md)
-- [Class](./napi/class.md)
+- [napi / Introduction](./napi/README.md)
+- [napi / Class](./napi/class.md)
 
 # rust / crates
 
-- [Notes](./rust/README.md)
+- [rust / Notes](./rust/README.md)
