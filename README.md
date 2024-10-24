@@ -6,7 +6,7 @@ My goal is to keep track of my findings and understandings. By open-sourcing thi
 
 If you feel like contributing, please do. I try not to link to too specific implementations (which can change over the time).
 
-An html version is available at <https://github.com/topheman/toolchain-notes>
+An html version is available at <https://topheman.github.io/toolchain-notes/>
 
 [You can also read the book directly on github](./src/SUMMARY.md).
 
