@@ -25,20 +25,20 @@ You can also propose a PR by hand.
 
 The html version can be generated with [`cargo-mdbook`](https://crates.io/crates/mdbook).
 
-# Install
+### Install
 
 ```sh
 cargo install mdbook
 ```
 
-# Generate
+### Generate
 
 ```sh
 mdbook build .
 # generated in ./book
 ```
 
-# Watch mode
+### Watch mode
 
 ```sh
 mdbook watch -o .
