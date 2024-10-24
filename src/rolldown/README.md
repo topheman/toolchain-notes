@@ -112,5 +112,17 @@ This is the plugin in charge of resolving the paths of the imports, which is a v
   - instanciates `Resolver::{default_resolver,import_resolver,require_resolver}` with [`oxc_resolver::ResolverGeneric<T>`](https://github.com/oxc-project/oxc-resolver/blob/main/src/lib.rs) passing the options resolved above
 2. Call site of `rolldown_resolver::Resolver::new` is in `BundlerBuilder`, while creating [`PluginDriver`](#rolldown_pluginplugindriver)
 3. `rolldown_resolver::Resolver::resolve` is exposed
+  - it accepts:
+    - importer: `Option<&Path>` - the path from where the module to be imported is to be resolved
+    - specifier: `&str` - the "name" of the module to resolve
+    - import_kind: `rolldown_common::ImportKind` whether it is an import, a dynamic import, a require, an `AtImport` (css)
+  - it resolve the directory of the importer from `importer`
+  - calls the adequate resolver (from `oxc_resolver`) based on `import_kind` with (`importer`, `specifier`)
+  - retrieves the `package.json` related to the module being resolved, since it can affect how we should resolve it
+  - caches the `package.json`
+  - calculates the following for the return:
+    - module_type: `rolldown_common::ModuleDefFormat`:
+      - ending with `.mjs` or `.cjs` is easy
+      - however, the `type` field of the `package.json` may affect the resolution (`module`, `commonjs`)
 
 <a href="https://github.com/rolldown/rolldown/tree/main/crates/rolldown_resolver" title="Source Code of rolldown_resolver">📄</a>
