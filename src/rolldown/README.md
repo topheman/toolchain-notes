@@ -68,7 +68,7 @@ For the implementation, see [oxc-project/oxc-resolver](https://github.com/oxc-pr
 
 <a href="https://github.com/rolldown/rolldown/tree/main/crates/rolldown_plugin" title="Source Code of rolldown_plugin">📄</a>
 
-## rolldown_plugin::PluginDriver
+### rolldown_plugin::PluginDriver
 
 [`PluginDriver`](https://github.com/rolldown/rolldown/blob/main/crates/rolldown_plugin/src/plugin_driver/mod.rs)
 
