@@ -4,9 +4,12 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Toolchain Notes"
+description = "The notes I've taken while diving into the source code of rolldown and oxc"
 
 [output.html]
 git-repository-url = "https://github.com/topheman/toolchain-notes"
 git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/topheman/toolchain-notes/edit/master/{path}"
 site-url = "/toolchain-notes/"
+no-section-label = true
+additional-css = ["custom.css"]
