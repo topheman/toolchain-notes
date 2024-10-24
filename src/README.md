@@ -4,7 +4,12 @@ This repository contains the notes I've taken while diving into the source code 
 
 My goal is to keep track of my findings and understandings. By open-sourcing this, it might help others (those repositories can be hard to dive into).
 
-If you feel like contributing, please do. I try not to link to too specific implementations (which can change over the time).
+Disclaimer: This work is based on myself reading the source code over multiple repositories.
+
+- I might get some things wrong
+- Some of my findings may end up out of date somehow (I try not to link to too specific implementations that could change over time)
+
+If you like this work, if you feel you can share improvements, you can contribute.
 
 ## Contributing
 
