@@ -103,7 +103,7 @@ For the implementation, see [oxc-project/oxc-resolver](https://github.com/oxc-pr
 
 This plugin relies on the traits `rolldown_fs::{FileSystem, OsFileSystem}` from [`rolldown_fs`](#rolldown_fs) which relies on `oxc_resolver::{FileMetadata, FileSystem}`.
 
-This is the plugin in charge of resolving the paths of the imports, which is a very tricky thing in JavaScript. The resolving part is handled by the [`oxc_resolver`](https://github.com/oxc-project/oxc-resolver) crate (in order to be able to share).
+This is the plugin in charge of resolving the paths of the imports, which is a very tricky thing in JavaScript. The resolving part is handled by the [`oxc_resolver`](../oxc-resolver/README.md) crate (in order to be able to share).
 
 1. `rolldown_resolver::Resolver::new` creates an instance of the resolver
   - based on

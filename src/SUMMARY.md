@@ -16,7 +16,7 @@
 
 # oxc-resolver
 
-- [oxc-resolver / Explore crate](./oxc-resolver/README.md)
+- [oxc-resolver / Introduction](./oxc-resolver/README.md)
 
 # napi
 
