@@ -6,12 +6,16 @@
 
 # rolldown
 
-- [rolldown / Explore crates](./rolldown/README.md)
+- [rolldown](./rolldown/README.md)
+- [rolldown / Shared Crates](./rolldown/explore-shared.md)
+- [rolldown / Builtin Plugins](./rolldown/explore-plugins.md)
+- [rolldown / rolldown](./rolldown/explore-root.md)
 - [rolldown / Build](./rolldown/build.md)
 
 # oxc
 
-- [oxc / Explore crates](./oxc/README.md)
+- [oxc / Introduction](./oxc/README.md)
+- [oxc / Explore crates](./oxc/explore.md)
 - [oxc / Build](./oxc/build.md)
 
 # oxc-resolver

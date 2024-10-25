@@ -23,4 +23,4 @@ Those resolving rules are applied, taking in account:
 
 And a lot of other things that can alter the resolution algorithm.
 
-This crate is widely used by [`rolldown_resolver`](../rolldown/README.md#rolldown_resolver).
+This crate is widely used by [`rolldown_resolver`](../rolldown/explore-shared.md#rolldown_resolver).
