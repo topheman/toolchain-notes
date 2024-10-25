@@ -138,3 +138,9 @@ Exposes `rolldown_rstr::Rstr` which is a thin wrapper over [`oxc::span::CompactS
 `rolldown_rstr::Rstr` is used in many places in the project.
 
 <a href="https://github.com/rolldown/rolldown/tree/main/crates/rolldown_rstr" title="Source Code of rolldown_rstr">📄</a>
+
+## rolldown_sourcemap
+
+Exposes `collapse_sourcemaps(mut sourcemap_chain: Vec<&SourceMap>) -> SourceMap`.
+
+Relies on [`oxc::sourcemap::*`](https://github.com/oxc-project/oxc/tree/main/crates/oxc_sourcemap).
