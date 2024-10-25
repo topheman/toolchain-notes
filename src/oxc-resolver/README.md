@@ -22,3 +22,5 @@ Those resolving rules are applied, taking in account:
   - `package.json#module`
 
 And a lot of other things that can alter the resolution algorithm.
+
+This crate is widely used by [`rolldown_resolver`](../rolldown/README.md#rolldown_resolver).

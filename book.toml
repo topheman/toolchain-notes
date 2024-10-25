@@ -15,4 +15,8 @@ no-section-label = true
 additional-css = ["custom.css"]
 
 [output.html.redirect]
+"/napi/README.html" = "../napi/index.html"
+"/oxc/README.html" = "../oxc/index.html"
 "/oxc-resolver/README.html" = "../oxc-resolver/index.html"
+"/rolldown/README.html" = "../rolldown/index.html"
+"/rust/README.html" = "../rust/index.html"

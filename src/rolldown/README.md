@@ -126,3 +126,15 @@ This is the plugin in charge of resolving the paths of the imports, which is a v
       - however, the `type` field of the `package.json` may affect the resolution (`module`, `commonjs`)
 
 <a href="https://github.com/rolldown/rolldown/tree/main/crates/rolldown_resolver" title="Source Code of rolldown_resolver">📄</a>
+
+## rolldown_rstr
+
+Exposes `rolldown_rstr::Rstr` which is a thin wrapper over [`oxc::span::CompactStr`](https://github.com/oxc-project/oxc/blob/main/crates/oxc_span/src/compact_str.rs), which is a wrapper over the [compact_str](https://crates.io/crates/compact_str) crate.
+
+> A memory efficient string type that can store up to 24* bytes on the stack.
+>
+> A `CompactString` is a more memory efficient string type, that can store smaller strings on the stack, and transparently stores longer strings on the heap (aka a small string optimization). It can mostly be used as a drop in replacement for `String` and are particularly useful in parsing, deserializing, or any other application where you may have smaller strings.
+
+`rolldown_rstr::Rstr` is used in many places in the project.
+
+<a href="https://github.com/rolldown/rolldown/tree/main/crates/rolldown_rstr" title="Source Code of rolldown_rstr">📄</a>
