@@ -6,7 +6,7 @@
 
 Contains the bindings to `wasm` and `napi` for the objects used on the JavaScript side, thanks to the [`#[napi]`](https://napi.rs) macro.
 
-This code is used in [`packages/rolldown`](./explore-rolldown-js.md#generate-bindings) to generate bindings.
+This code is used in [`packages/rolldown`](./explore-rolldown-js-bundling.md#generate-bindings) to generate bindings.
 
 [Difference between napi and napi-rs](../napi/README.md).
 

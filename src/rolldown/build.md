@@ -1,14 +1,23 @@
 # rolldown / Build
 
-Setup
+<https://rolldown.rs/contrib-guide/building-and-running>
+
+To understand what's happening under the hood, read [rolldown / rolldown (js) - bundling](./explore-rolldown-js-bundling.md).
+
+## Setup
 
 ```sh
 just setup && just roll
 ```
 
-Build the wasi part: needs [wasm32-wasip1-threads](https://doc.rust-lang.org/rustc/platform-support/wasm32-wasip1-threads.html)
+## Build
 
 ```sh
-rustup target add wasm32-wasip1-threads # only once
-just build wasi
+just build
+```
+
+## Use rolldown local version
+
+```sh
+pnpm rolldown
 ```
