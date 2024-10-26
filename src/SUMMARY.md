@@ -11,6 +11,7 @@
 - [rolldown / Builtin Plugins](./rolldown/explore-plugins.md)
 - [rolldown / rolldown](./rolldown/explore-root.md)
 - [rolldown / Build](./rolldown/build.md)
+- [rolldown / Bench](./rolldown/bench.md)
 
 # oxc
 
