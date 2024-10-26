@@ -4,12 +4,11 @@
 
 ## rolldown_binding
 
-```sh
-cd packages/rolldown # the TypeScript package
-# Builds packages/rolldown/src/binding.d.ts , updates the TypeScript definitions of all bindings
-# based on the ones in the crates/rolldown_binding crate
-npm run build-binding
-```
+Contains the bindings to `wasm` and `napi` for the objects used on the JavaScript side, thanks to the [`#[napi]`](https://napi.rs) macro.
+
+This code is used in [`packages/rolldown`](./explore-rolldown-js.md#generate-bindings) to generate bindings.
+
+[Difference between napi and napi-rs](../napi/README.md).
 
 <a href="https://github.com/rolldown/rolldown/tree/main/crates/rolldown_binding" title="Source Code of rolldown_binding">📄</a>
 

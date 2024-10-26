@@ -9,7 +9,8 @@
 - [rolldown](./rolldown/README.md)
 - [rolldown / Shared Crates](./rolldown/explore-shared.md)
 - [rolldown / Builtin Plugins](./rolldown/explore-plugins.md)
-- [rolldown / rolldown](./rolldown/explore-root.md)
+- [rolldown / rolldown (rust)](./rolldown/explore-rolldown-rust.md)
+- [rolldown / rolldown (js)](./rolldown/explore-rolldown-js.md)
 - [rolldown / Build](./rolldown/build.md)
 - [rolldown / Bench](./rolldown/bench.md)
 
