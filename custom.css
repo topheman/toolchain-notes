@@ -1,3 +1,15 @@
 .sidebar .chapter-item {
   padding-left: 10px;
 }
+.content main a[href^="."]::after,
+.content main a[href^="#"]::after {
+  content: "⇲";
+}
+.content main h1 a[href^="#"]::after,
+.content main h2 a[href^="#"]::after,
+.content main h3 a[href^="#"]::after,
+.content main h4 a[href^="#"]::after,
+.content main h5 a[href^="#"]::after,
+.content main h6 a[href^="#"]::after {
+  content: "";
+}

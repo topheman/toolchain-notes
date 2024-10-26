@@ -17,7 +17,7 @@ npm run build-binding
 
 ### rolldown_common::file_emitter
 
-The [`FileEmitter`](https://github.com/rolldown/rolldown/blob/main/crates/rolldown_common/src/file_emitter.rs) is instanciated and passed as an `Arc<FileEmitter>` to the [`rolldown_plugin::PluginDriver` (wiki)](#rolldown_pluginplugindriver)
+The [`FileEmitter`](https://github.com/rolldown/rolldown/blob/main/crates/rolldown_common/src/file_emitter.rs) is instanciated and passed as an `Arc<FileEmitter>` to the [`rolldown_plugin::PluginDriver`](#rolldown_pluginplugindriver)
 
 ## rolldown_css
 
@@ -51,7 +51,7 @@ For the implementation, see [oxc-project/oxc-resolver](https://github.com/oxc-pr
     - [`oxc_syntax::keyword::is_reserved_keyword_or_global_object`](https://github.com/oxc-project/oxc/blob/main/crates/oxc_syntax/src/keyword.rs)
 - [`text_to_esm`](https://github.com/rolldown/rolldown/blob/main/crates/rolldown_loader_utils/src/text_to_esm.rs)
 - [`binary_to_esm`](https://github.com/rolldown/rolldown/blob/main/crates/rolldown_loader_utils/src/binary_to_esm.rs)
-  - Based on the platform, it will be `__toBinary` or `__toBinaryNode`, the implementation is in [crates/rolldown/src/runtime](https://github.com/rolldown/rolldown/blob/main/crates/rolldown/src/runtime/index.js)
+  - Based on the platform, it will be `__toBinary` or `__toBinaryNode`, the implementation is in [`crates/rolldown/src/runtime`](https://github.com/rolldown/rolldown/blob/main/crates/rolldown/src/runtime/index.js)
   - `import { __toBinary } from ./some-module; export default __toBinary(base64encoded)`
 
 <a href="https://github.com/rolldown/rolldown/tree/main/crates/rolldown_loader_utils" title="Source Code of rolldown_loader_utils">📄</a>
@@ -75,7 +75,7 @@ For the implementation, see [oxc-project/oxc-resolver](https://github.com/oxc-pr
 - instanciated by the [`BundlerBuilder`](https://github.com/rolldown/rolldown/blob/main/crates/rolldown/src/bundler_builder.rs)
   - plugins: `Vec<SharedPluginable>` - list of plugins
   - resolver: `&Arc<Resolver>` - see [`rolldown_resolver`](#rolldown_resolver)
-  - file_emitter: `SharedFileEmitter` - see [`rolldown_common::file_emitter` (source)](https://github.com/rolldown/rolldown/blob/main/crates/rolldown_common/src/file_emitter.rs) / [`rolldown_common::file_emitter` (wiki)](#rolldown_commonfile_emitter)
+  - file_emitter: `SharedFileEmitter` - see [`rolldown_common::file_emitter` (source)](https://github.com/rolldown/rolldown/blob/main/crates/rolldown_common/src/file_emitter.rs) / [`rolldown_common::file_emitter`](#rolldown_commonfile_emitter)
   - options= `SharedNormalizedBundlerOptions = Arc<NormalizedBundlerOptions>`
   - watch_files
 - `PluginDriver::iter_plugin_with_context_by_order(self, [PluginIdx])` is available: it loops over plugins, **making their context available**
@@ -115,7 +115,7 @@ This is the plugin in charge of resolving the paths of the imports, which is a v
 
 ## rolldown_rstr
 
-Exposes `rolldown_rstr::Rstr` which is a thin wrapper over [`oxc::span::CompactStr`](https://github.com/oxc-project/oxc/blob/main/crates/oxc_span/src/compact_str.rs), which is a wrapper over the [compact_str](https://crates.io/crates/compact_str) crate.
+Exposes `rolldown_rstr::Rstr` which is a thin wrapper over [`oxc::span::CompactStr`](https://github.com/oxc-project/oxc/blob/main/crates/oxc_span/src/compact_str.rs), which is a wrapper over the [`compact_str`](https://crates.io/crates/compact_str) crate.
 
 > A memory efficient string type that can store up to 24* bytes on the stack.
 >
