@@ -11,6 +11,7 @@
 - [rolldown / Builtin Plugins](./rolldown/explore-plugins.md)
 - [rolldown / rolldown (rust)](./rolldown/explore-rolldown-rust.md)
 - [rolldown / rolldown (js) - bundling](./rolldown/explore-rolldown-js-bundling.md)
+- [rolldown / bindings rust/js](./rolldown/explore-rolldown-bindings.md)
 - [rolldown / rolldown (js) - explore](./rolldown/explore-rolldown-js-explore.md)
 - [rolldown / Build](./rolldown/build.md)
 - [rolldown / Bench](./rolldown/bench.md)
