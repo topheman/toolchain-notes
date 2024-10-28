@@ -1,36 +1,34 @@
-# Summary
-
 # Toolchain Notes
 
-- [Introduction](./README.md)
+[Toolchain Notes](./README.md)
 
-# rolldown
+## rolldown
 
 - [rolldown](./rolldown/README.md)
-- [rolldown / Shared Crates](./rolldown/explore-shared.md)
-- [rolldown / Builtin Plugins](./rolldown/explore-plugins.md)
-- [rolldown / rolldown (rust)](./rolldown/explore-rolldown-rust.md)
-- [rolldown / rolldown (js) - bundling](./rolldown/explore-rolldown-js-bundling.md)
-- [rolldown / bindings rust/js](./rolldown/explore-rolldown-bindings.md)
-- [rolldown / rolldown (js) - explore](./rolldown/explore-rolldown-js-explore.md)
-- [rolldown / Build](./rolldown/build.md)
-- [rolldown / Bench](./rolldown/bench.md)
+  - [rolldown / Shared Crates](./rolldown/explore-shared.md)
+  - [rolldown / Builtin Plugins](./rolldown/explore-plugins.md)
+  - [rolldown / rolldown (rust)](./rolldown/explore-rolldown-rust.md)
+  - [rolldown / rolldown (js) - bundling](./rolldown/explore-rolldown-js-bundling.md)
+  - [rolldown / bindings rust/js](./rolldown/explore-rolldown-bindings.md)
+  - [rolldown / rolldown (js) - explore](./rolldown/explore-rolldown-js-explore.md)
+  - [rolldown / Build](./rolldown/build.md)
+  - [rolldown / Bench](./rolldown/bench.md)
 
-# oxc
+## oxc
 
-- [oxc / Introduction](./oxc/README.md)
-- [oxc / Explore crates](./oxc/explore.md)
-- [oxc / Build](./oxc/build.md)
+- [oxc](./oxc/README.md)
+  - [oxc / Explore crates](./oxc/explore.md)
+  - [oxc / Build](./oxc/build.md)
 
-# oxc-resolver
+## oxc-resolver
 
-- [oxc-resolver / Introduction](./oxc-resolver/README.md)
+- [oxc-resolver](./oxc-resolver/README.md)
 
-# napi
+## napi
 
-- [napi / Introduction](./napi/README.md)
-- [napi / Class](./napi/class.md)
+- [napi](./napi/README.md)
+  - [napi / Class](./napi/class.md)
 
-# rust / crates
+## rust / crates
 
 - [rust / Notes](./rust/README.md)
