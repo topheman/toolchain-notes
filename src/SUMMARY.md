@@ -18,6 +18,7 @@
 
 - [oxc](./oxc/README.md)
   - [oxc / Explore crates](./oxc/explore.md)
+  - [oxc / Bundling (js)](./oxc/explore-js-bundling.md)
   - [oxc / Build](./oxc/build.md)
 
 ## oxc-resolver
@@ -27,6 +28,7 @@
 ## napi
 
 - [napi](./napi/README.md)
+  - [napi / Build](./napi/build.md)
   - [napi / Class](./napi/class.md)
 
 ## rust / crates
