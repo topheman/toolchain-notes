@@ -13,3 +13,11 @@
 .content main h6 a[href^="#"]::after {
   content: "";
 }
+html, body {
+  scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  .animation {
+    scroll-behavior: unset;
+  }
+}
