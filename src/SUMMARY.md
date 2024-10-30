@@ -1,6 +1,7 @@
 # Toolchain Notes
 
 [Toolchain Notes](./README.md)
+[About rolldown & cie](./about-the-tools.md)
 
 ## rolldown
 
