@@ -48,7 +48,7 @@ For the implementation, see [oxc-project/oxc-resolver](https://github.com/oxc-pr
   - relies on
     - [`oxc_syntax::identifier::is_identifier_name`](https://github.com/oxc-project/oxc/blob/main/crates/oxc_syntax/src/identifier.rs) to make sure the export is a valid identifier (otherwise, creates a temporary `const` and `export as`)
     - [`oxc_syntax::keyword::is_reserved_keyword_or_global_object`](https://github.com/oxc-project/oxc/blob/main/crates/oxc_syntax/src/keyword.rs)
-- [`text_to_esm`](https://github.com/rolldown/rolldown/blob/main/crates/rolldown_loader_utils/src/text_to_esm.rs)
+- [`text_to_string_literal`](https://github.com/rolldown/rolldown/blob/main/crates/rolldown_loader_utils/src/text_to_esm.rs)
 - [`binary_to_esm`](https://github.com/rolldown/rolldown/blob/main/crates/rolldown_loader_utils/src/binary_to_esm.rs)
   - Based on the platform, it will be `__toBinary` or `__toBinaryNode`, the implementation is in [`crates/rolldown/src/runtime`](https://github.com/rolldown/rolldown/blob/main/crates/rolldown/src/runtime/index.js)
   - `import { __toBinary } from ./some-module; export default __toBinary(base64encoded)`
