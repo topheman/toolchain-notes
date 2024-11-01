@@ -20,4 +20,8 @@ just build
 
 ```sh
 pnpm rolldown
+## or
+just run
 ```
+
+Check the [justfile](https://github.com/rolldown/rolldown/blob/main/justfile).
