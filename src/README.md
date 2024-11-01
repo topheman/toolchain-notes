@@ -18,6 +18,8 @@ Disclaimer: This work is based on myself reading the source code over multiple r
 - I might get some things wrong
 - Some of my findings may end up out of date somehow
 
+Don't hesitate to give a <span role="img" aria-label="star" title="star">⭐️</span> to the project on [github](https://github.com/topheman/toolchain-notes).
+
 ## Contributing
 
 I wrote something incorrect ? You can make a contribution and fix it.
