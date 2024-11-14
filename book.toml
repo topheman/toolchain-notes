@@ -20,3 +20,4 @@ additional-css = ["mdbook-custom.css"]
 "/oxc-resolver/README.html" = "../oxc-resolver/index.html"
 "/rolldown/README.html" = "../rolldown/index.html"
 "/rust/README.html" = "../rust/index.html"
+"/oxc/ast/README.html" = "/oxc/ast/index.html"

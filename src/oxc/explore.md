@@ -4,6 +4,8 @@
 
 ## oxc_ast
 
+[Special section for oxc_ast](./ast/README.md).
+
 ### Printing an AST
 
 For this one, you will need to read [`oxc_codegen`](#oxc_codegen) before.

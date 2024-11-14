@@ -19,6 +19,7 @@
 
 - [oxc](./oxc/README.md)
   - [oxc / Explore crates](./oxc/explore.md)
+    - [oxc / oxc_ast](./oxc/ast/README.md)
   - [oxc / Bundling (js)](./oxc/explore-js-bundling.md)
   - [oxc / Build](./oxc/build.md)
 
